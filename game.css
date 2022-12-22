@@ -1,0 +1,163 @@
+
+.title{
+    font-size:6em;
+    letter-spacing: 15px;
+    color:#000000;
+    text-transform: uppercase;
+    border: 5px solid rgb(0, 0, 0);
+    width: 800px;
+    text-align: center;
+    font-family: arial;
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0004);/*reflection of words*/
+    outline: none;
+    position: fixed;
+    left: 28%;
+}
+#start{
+    font-size:8em;
+    letter-spacing: 15px;
+    color:#000000;
+    text-transform: uppercase;
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0004);/*reflection of words*/
+    outline: none;
+    position: fixed;
+    width: 600px;
+    left: 34%;
+    top: 40%;
+    
+}
+.training{
+    font-size:4em;
+    letter-spacing: 15px;
+    color:#000000;
+    text-transform: uppercase; /*대문자 */
+    border: 5px solid rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    outline: none;
+    position: fixed;
+    width: 500px;
+    top:40%;
+    left: 37%;
+}
+
+#spacebar{
+    font-size:4em;
+    letter-spacing: 15px;
+    color:#000000;
+    text-transform: uppercase;
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: arial;
+    outline: none;
+    position: fixed;
+    width: 600px;
+    left: 34%;
+    top: 60%;
+}
+
+#Timer1{
+    font-size:10em;
+    position: fixed;
+    left:47%;
+    top:20%
+}
+
+#score_training{
+    font-size:5em;
+    position: fixed;
+    left:28%;
+    top:25%;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+#Timer2{
+    font-size:5em;
+    position: fixed;
+    left:28%;
+    top:36%;
+    border: 5px solid #000;
+    text-align: center;
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+#training_menu{
+    font-size:5em;
+    position: fixed;
+    width: 42%;
+    height: 50%;
+    border: 5px solid #000;
+    left: 28%;
+    top: 25%;
+    font-family: arial;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 0;
+}
+#main_menu{
+    font-size: 5em;
+    letter-spacing: 15px;
+    color:#000000;
+    text-transform: uppercase;
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: arial;
+    position: fixed;
+    width: 600px;
+    left: 34%;
+    top: 60%;
+    z-index: 1;
+}
+#space_effect{
+    border: 4px solid rgb(0, 0, 0);
+    height: 75px;
+    position: fixed;
+    width: 600px;
+    left: 34%;
+    top: 60%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; /*this make it smooth*/
+    position: fixed;
+}
+
+
+@keyframes effect{
+    0%  {border-color: #000;
+    
+    }
+    25% {border-color: rgb(62, 62, 62); 
+        transform: scale(1.1);
+
+    }
+    50% {border-color: rgb(131, 131, 131);
+        transform: scale(1.2);
+
+  
+    }
+    75% {border-color: rgb(166, 166, 166);
+        transform: scale(1.3);
+
+    }
+    100%{border-color: rgb(255, 255, 255);
+        transform: scale(1.4);
+
+    }
+}
+
+#stat_img{
+    left: 20%;
+    position: fixed;
+    top: 90%;
+    width: 100px;
+    height: 100px;
+}
